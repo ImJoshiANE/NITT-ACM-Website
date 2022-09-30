@@ -704,14 +704,13 @@ h3 {
   .listItem{
       margin: 0 2%;
   }
+.litem1{
+  width:100px;
+}
 }
 @media screen and (max-width:700px)
 {
 .litem6, .litem7{
       display: none;
   }
-
-.litem1{
-  width:100px;
-}
 }
