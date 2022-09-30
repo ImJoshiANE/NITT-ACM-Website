@@ -1,0 +1,125 @@
+:root{
+    --bgcolor1: hsl(170, 75%, 41%, 0.2);
+    --bgcolor2: #F9F6F2;
+
+    --buttonColor2:hsl(351, 83%, 61%, 0.2);
+    --buttonText2:hsl(351, 83%, 61%);
+    --hoverColor2:hsl(351, 83%, 61%, 0.35);
+
+    --buttonColor1:hsl(170, 75%, 41%, 0.2);
+    --buttonText1:hsl(170, 75%, 41%);
+    --hoverColor1:hsl(170, 75%, 41%, 0.35);
+}
+
+.normalUsedH1 {
+    margin: 0 0;
+}
+
+.profile-container-2021, .profile-container-2020, .profile-container-2019 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: var(--bgcolor1);
+}
+
+.profile-container-2020{
+    background-color: var(--bgcolor2);
+}
+
+.profile {
+    margin: 5% 2.5%;
+    width: 350px;
+    height: 190px;
+    border-radius: 10px;
+    background-color: white;
+    transition-duration: .5s;
+    overflow: hidden;
+}
+.profile:hover {
+    margin: 5% 2.5%;
+    width: 350px;
+    height: 250px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+h2 {
+    text-align: center;
+    font-size: 1.8rem;
+    margin: 2% 0 0 0;
+    padding: 50px;
+    background-color: var(--bgcolor1);
+}
+
+.seniorBatch{
+    background-color: var(--bgcolor2);
+}
+
+.prf-img {
+    background-color: beige;
+    width: 150px;
+    height: 150px;
+    border-radius: 20px;
+    position: absolute;
+    margin: -50px 100px;
+    box-shadow: 0 15px 50px rgba(0,0,0,0.35);
+    overflow: hidden;
+}
+
+img{
+    width: 100%;
+}
+
+.prf-detail{
+    text-align: center;
+    padding-top: 130px;
+}
+
+h3{
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+p{
+    font-weight: 400;
+}
+
+a{
+    margin: 0 2% 0 2%;
+}
+
+button{
+    border: 0ch;
+    border-radius: 5PX;
+    margin: 1% 2% 0 2%;
+    padding: 4px 15px;
+    font-weight: 500;
+    background-color: hsl(170, 75%, 41%, 0.2);
+    color: var(--buttonText1);
+}
+
+.redButton{
+    background-color: var(--buttonColor2);
+    color: var(--buttonText2);
+}
+
+.redButton:hover{
+    background-color: var(--hoverColor2);
+}
+
+button:hover{
+    background-color: var(--hoverColor1);
+    transition-duration: .3s;
+}
+
+.superSeniorBatch{
+    background-color: var(--bgcolor1);
+}
+
+@media screen and (max-width:792px) {
+    .profile{
+        margin-top: 10%;
+    }
+}
