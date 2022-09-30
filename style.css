@@ -710,4 +710,8 @@ h3 {
 .litem6, .litem7{
       display: none;
   }
+
+.litem1{
+  width:100px;
+}
 }
