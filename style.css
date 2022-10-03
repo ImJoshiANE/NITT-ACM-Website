@@ -60,7 +60,6 @@ header {
 .navList {
   background-color: white;
   padding: 1rem 0;
-  border-radius: var(--radius);
   display: flex;
   justify-content: flex-end;
   align-items: center;
